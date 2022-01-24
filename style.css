@@ -1,0 +1,22 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.index {
+    background-image: url("images/material.jpg");
+    background-size: cover;
+}
+
+.sound {
+    background-image: url("images/cassettes.jpg");
+    background-size: cover;
+}
+
+.main {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+}
