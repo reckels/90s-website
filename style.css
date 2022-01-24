@@ -41,7 +41,8 @@
 }
 
 .next {
-    float: right;
+    position: fixed;
+    right: 0px;
     background-color: white;
     padding: 10px;
     border-radius: 50px;
@@ -52,7 +53,7 @@
 }
 
 .back {
-    float: left;
+    position: fixed;
     background-color: white;
     padding: 10px;
     border-radius: 50px;
@@ -64,6 +65,7 @@
 
 h1 {
     padding: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -74,6 +76,20 @@ h2 {
     background-image: url("images/denim.jpg");
 }
 
+.style-main {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 0;
+}
 h1 .style {
+    text-align: center;
+}
+
+.style-image {
+    width: 100%;
+}
+
+.style-header {
     text-align: center;
 }
